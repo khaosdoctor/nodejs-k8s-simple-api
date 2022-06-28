@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-k8s-simple-api",
+  "version": "0.0.1",
+  "description": "This is just a simple Node.js API to be published locally with Node.js and KinD.",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaosdoctor/nodejs-k8s-simple-api.git"
+  },
+  "keywords": [],
+  "author": "Lucas Santos <hello@lsantos.dev> (https://lsantos.dev/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/khaosdoctor/nodejs-k8s-simple-api/issues"
+  },
+  "homepage": "https://github.com/khaosdoctor/nodejs-k8s-simple-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
