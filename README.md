@@ -11,3 +11,6 @@ This API is just a hashing and cryptography API, it has two main routes,
 - The `/aes/:data` will perform an AES reversible encryption and return both the encrypted text and an IV, to decrypt, you'll need both
   - To decrypt the data, pass on `?key=<yourpass>&iv=<theIV>&decrypt=1` to the query string
   
+### Envs
+
+- `PORT`: Default is 3000, if passed will tell the app to run on a specific port
