@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/khaosdoctor/nodejs-k8s-simple-api#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.19.2"
   }
 }
